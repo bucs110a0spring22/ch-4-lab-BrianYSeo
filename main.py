@@ -35,7 +35,7 @@ def drawTangentCurve(dart):
   for i in range (-360, 360):
     yvar = math.tan(math.radians(i))
     dart.goto(i,yvar)
-def drawCotangentCurve(window,dart):
+def drawCircleCurve(window,dart):
   window.setworldcoordinates(-1,-1,1,1)
   dart.up()
   dart.goto(360, 0)
@@ -66,6 +66,6 @@ def main():
     if (curve == "tan"):
       drawTangentCurve(dart)
     if (curve == "circle"):
-      drawCotangentCurve(wn,dart)
+      drawCircleCurve(wn,dart)
     wn.exitonclick()
 main()

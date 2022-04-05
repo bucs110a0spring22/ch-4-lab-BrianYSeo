@@ -1,19 +1,21 @@
 #### CS 110
-# Chapter 4 - Lab - Functions
-
-### [Assignment Description](https://docs.google.com/document/d/1V20D_upUX4MO8YmskKlRB25Yu2pCEv3-h8z4EAfrSno/edit?usp=sharing)
+# Midterm - Python Programming
 
 ***
 
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- Draws Sin, Cos, and Tan functions
+What did you clean up?:
+ fixed sine function and deleted unnecessary code
 
-## GRACE DAYS
-Grace days used for this assignment: 0
-
-Grace days remaining: 5/5
+Summary of function(s) added: 
+ resized window to be x,y axis from (-1,1) and draw circle using sine 
+ and cosine functions
+  
+Summary of Feature Added:
+ asked user for input on which trig function to draw so that they're 
+ not all on the same graph
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
  none
